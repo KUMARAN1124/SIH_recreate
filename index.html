@@ -1,0 +1,32 @@
+// HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Suggestion Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Crop Suggestion Dashboard</div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="location-input" placeholder="Enter city name">
+                <button id="search-btn">Search</button>
+            </div>
+            <div id="weather-info"></div>
+            <div id="crop-suggestions">
+                <div id="fruits"></div>
+                <div id="vegetables"></div>
+                <div id="flowers"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
